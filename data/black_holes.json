@@ -1,0 +1,89 @@
+{
+  "_note": "Masses in solar masses (Msun). Real, sourced measured values. For scale: 1 Msun = 1.0 in the REBOUND units (yr, AU, Msun) used by 01_live_viewer.py.",
+  "black_holes": [
+    {
+      "name": "Sagittarius A*",
+      "type": "supermassive (Milky Way center)",
+      "mass_msun": 4297000,
+      "mass_uncertainty_msun": 12000,
+      "distance_ly": 26000,
+      "method": "stellar orbits (S2/S0-2) + Event Horizon Telescope imaging",
+      "source": "https://www.cfa.harvard.edu/news/supermassive-black-hole-our-galaxy ; EHT 2022"
+    },
+    {
+      "name": "M87*",
+      "type": "supermassive (M87 galaxy, Virgo Cluster)",
+      "mass_msun": 6500000000,
+      "mass_uncertainty_msun": 700000000,
+      "distance_ly": 53000000,
+      "method": "first direct image of a black hole, Event Horizon Telescope (2019)",
+      "source": "https://www.sciencenews.org/article/m87-black-hole-image-best-mass-estimates-star-motion"
+    },
+    {
+      "name": "TON 618",
+      "type": "quasar - one of the most massive known",
+      "mass_msun": 40700000000,
+      "mass_uncertainty_msun": null,
+      "note": "older estimate (Hbeta line) gave 66 billion Msun; recent estimate (CIV line) gives 40.7 billion Msun",
+      "distance_ly": 10800000000,
+      "method": "quasar emission line correlation",
+      "source": "https://www.heise.de/en/background/Numbers-please-TON-618-Huge-black-hole-with-66-billion-solar-masses-10684566.html ; https://en.wikipedia.org/wiki/TON_618"
+    },
+    {
+      "name": "Cygnus X-1",
+      "type": "stellar (X-ray binary)",
+      "mass_msun": 21.2,
+      "mass_uncertainty_msun": 2.2,
+      "distance_ly": 7200,
+      "method": "radio astrometry + spectroscopy",
+      "source": "https://www.science.org/doi/10.1126/science.abb3363"
+    },
+    {
+      "name": "GW150914 - component 1",
+      "type": "stellar (binary merger, 1st LIGO detection)",
+      "mass_msun": 36,
+      "mass_uncertainty_msun": 5,
+      "method": "gravitational wave, LIGO detection Sept 14 2015",
+      "source": "https://dcc.ligo.org/LIGO-P1500218/public"
+    },
+    {
+      "name": "GW150914 - component 2",
+      "type": "stellar (binary merger, 1st LIGO detection)",
+      "mass_msun": 29,
+      "mass_uncertainty_msun": 4,
+      "method": "gravitational wave, LIGO detection Sept 14 2015",
+      "source": "https://dcc.ligo.org/LIGO-P1500218/public"
+    },
+    {
+      "name": "GW150914 - merger remnant",
+      "type": "stellar (merger product)",
+      "mass_msun": 62,
+      "mass_uncertainty_msun": 4,
+      "spin": 0.67,
+      "note": "3 solar masses radiated away as gravitational waves during the merger",
+      "method": "gravitational wave, LIGO detection Sept 14 2015",
+      "source": "https://dcc.ligo.org/LIGO-P1500262/public"
+    },
+    {
+      "name": "GW190521 - component 1",
+      "type": "stellar (in the pair-instability mass gap)",
+      "mass_msun": 85,
+      "method": "gravitational wave, LIGO/Virgo detection May 21 2019",
+      "source": "https://www.ligo.caltech.edu/news/ligo20200902"
+    },
+    {
+      "name": "GW190521 - component 2",
+      "type": "stellar",
+      "mass_msun": 66,
+      "method": "gravitational wave, LIGO/Virgo detection May 21 2019",
+      "source": "https://www.ligo.caltech.edu/news/ligo20200902"
+    },
+    {
+      "name": "GW190521 - merger remnant",
+      "type": "intermediate mass (1st clear evidence of an IMBH)",
+      "mass_msun": 142,
+      "method": "gravitational wave, LIGO/Virgo detection May 21 2019",
+      "source": "https://www.ligo.caltech.edu/news/ligo20200902"
+    }
+  ]
+}
